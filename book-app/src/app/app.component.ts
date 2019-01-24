@@ -8,12 +8,12 @@ import * as firebase from 'firebase';
 })
 export class AppComponent {
   	constructor() {
-		const config = {
+		var config = {
 			apiKey: "AIzaSyBgBs1GyO0DWJlSk9OtfjAD0YPpPcbAECs",
 			authDomain: "book-app-d8837.firebaseapp.com",
 			databaseURL: "https://book-app-d8837.firebaseio.com",
 			projectId: "book-app-d8837",
-			storageBucket: "",
+			storageBucket: "gs://book-app-d8837.appspot.com/",
 			messagingSenderId: "132566906554"
 		};
 		firebase.initializeApp(config);
